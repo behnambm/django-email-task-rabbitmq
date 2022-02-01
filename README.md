@@ -7,7 +7,7 @@ It takes a lot of time to send emails during the request/response cycle, so I'm 
 
 - Make sure you have RabbitMQ running on localhost(or change the `host` in `consumer.py` and `producer.py`)
 - Install requirements. `pip install requirements.txt`
-- Rename `.env.sample` file to `.env` and fill the required variables.
+- Rename `.env.sample` file to `.env` and fill the required variables with proper data.
 - Run django app. `python manage.py runserver`
 - Run worker instance(consumer).  `python consumer.py`
 
